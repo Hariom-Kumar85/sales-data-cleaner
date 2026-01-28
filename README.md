@@ -23,24 +23,6 @@ Allow custom input/output file names
 
 Handle larger datasets
 
-yaml
-Copy code
-
-Then click **Commit changes**.
-
 ---
 
-## ✅ After this, your README will:
-- Show clean headings  
-- Show formatted code  
-- Show the screenshot properly  
-- Look professional to recruiters  
 
----
-
-## ⚠️ If the image still doesn’t show
-Make sure:
-- The file name is exactly: `output.png`
-- It is uploaded in the same repo (same folder as README.md)
-
-If you want, paste your repo link here and I’ll review it like a recruiter and tell y
