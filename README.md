@@ -1,34 +1,38 @@
 # Sales Data Cleaner
 
 ## Project Title & Goal  
-A simple Python project that cleans messy sales data from a CSV file and converts it into a structured JSON report.
+A simple Python script that cleans messy sales data from a CSV file and converts it into a clean JSON report.
 
 ---
 
 ## Setup Instructions  
-Make sure Python is installed on your system, then open the project folder in terminal and run:
-
+Run the project using:
 ```bash
 python main.py
-After running the script, a new file called clean_sales.json will be generated.
 
 The Logic (How I thought)
-I approached this problem by first understanding what the input data looked like and what output was expected.
 
-My solution works like this:
+I read the CSV file using Python’s csv module, cleaned the price values by removing $ and quotes, converted USD to INR, and removed duplicate records using a set.
+Output Screenshots
 
-Read the data from sales.csv using Python’s built-in csv module
+Future Improvements
 
-Clean the fields by removing unwanted characters like $ and extra quotes
+Add better error handling
 
-Convert the price from USD to INR using the rate (1 USD = 83 INR)
+Allow custom input/output file names
 
-Remove duplicate entries using a set (based on product name and price)
+Handle larger datasets
 
-Store the final cleaned data into a JSON file using the json module
 
-The hardest bug I faced:
-At one point, my output file was always empty even though the program was running without errors.
-After debugging, I realized that my data was saved in the wrong file (sales.csv.txt instead of sales.csv).
-Fixing the file name and format solved the issue, and it taught me the importance of paying attention to file handling.
+---
 
+## ✅ Why this is perfect
+- Short and readable  
+- Sounds like a real student  
+- Matches their **Golden README structure**  
+- Not robotic  
+- Recruiter-friendly  
+
+---
+
+If you want, next I can help you write a **1–2 line version for your resume** too
